@@ -1,0 +1,10 @@
+CiaNet Self 𝒗₁.₀ — شروع سریع
+
+1) این ZIP را استخراج کن. فایل install.sh در ریشه بسته است.
+2) از همان مسیر روی Ubuntu/Debian اجرا کن: sudo bash install.sh
+3) پس از تنظیم DNS دامنه به IP عمومی Amazon EC2، اجرا کن:
+   sudo bash install_panel.sh cianet-self.duckdns.org
+4) پورت 8000 را در Security Group عمومی نکن؛ فقط 22 (محدود به IP مدیر)، 80 و 443 لازم‌اند.
+5) توکن تازه ربات‌ها و API Hash را فقط در ورودی نصب/فایل خصوصی /etc/cianet.env وارد کن. فایل env را در GitHub منتشر نکن.
+
+تمام فایل‌های سطح اصلی مستقیماً در ریشه ZIP هستند و پوشه‌ی اضافه‌ی نسخه وجود ندارد. پوشه‌های cianet/، web_static/، tools/ و versions/ برای importها و فایل‌های پنل ضروری‌اند؛ حذف یا تخت‌کردنشان اجرا را خراب می‌کند.

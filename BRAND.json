@@ -1,0 +1,11 @@
+{
+  "brand_id": "cianet-self",
+  "product": "CiaNet Self",
+  "version": "1.0",
+  "display_version": "𝒗₁.₀",
+  "main_bot": "CiaNet_Self_bot",
+  "support_bot": "CiaNet_Self_Support_bot",
+  "channel": "CiaNet_Self",
+  "support_contact": "sadiq_AFG1",
+  "deployment_target": "Amazon EC2 / Linux VPS"
+}
